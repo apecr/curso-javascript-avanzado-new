@@ -4,7 +4,7 @@
   "description": "Nuevos ejemplos",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -u tdd"
+    "test": "mocha -u tdd --recursive"
   },
   "author": "Alberto Eyo",
   "keywords": [
