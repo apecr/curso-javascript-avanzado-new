@@ -7,6 +7,9 @@
     "test": "mocha -u tdd"
   },
   "author": "Alberto Eyo",
+  "keywords": [
+    "npm-library"
+  ],
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
