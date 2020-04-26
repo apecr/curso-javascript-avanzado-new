@@ -1,6 +1,6 @@
 /* global describe, it */
 const { expect } = require('chai')
-const { triangulo, arr, sumador } = require('./../../src/tema1-objetos/arrow')
+const { triangulo, sumador } = require('./../../src/tema1-objetos/arrow')
 
 describe('Arrow functions', () => {
   it('Bind triangulo', () => {
@@ -9,8 +9,6 @@ describe('Arrow functions', () => {
       /Cannot read property 'x' of undefined/
     )
     expect(triangulo.areaArrowIFFE()).to.be.equal(1)
-
-    expect(arr()).to.be.equal(42)
 
     function foo() {
       const f = () => arguments[0]
