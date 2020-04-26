@@ -4,3 +4,6 @@ target/
 .classpath
 node_modules/
 .idea/
+
+.scannerwork
+coverage
